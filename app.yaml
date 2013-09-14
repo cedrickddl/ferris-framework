@@ -1,4 +1,4 @@
-application: cs-ferris    #.appspot.com
+application: russomi-ferris2    #.appspot.com
 version: baseline
 
 runtime: python27
