@@ -22,6 +22,12 @@ import fix_imports
 
 sys.path.insert(0, '/home/jonparrott/.bin/google_appengine')
 sys.path.insert(0, '/home/jonparrott/bin/google_appengine')
+
+# # for OSX default
+# if os.uname() == 'Darwin':
+sys.path.insert(0, '/usr/local/google_appengine')
+
+
 import google
 reload(google)  # Remove wrong module
 import dev_appserver
